@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/layouts/Index";
 import { AuthStatus, Authenticated } from "./middleware/auth.middleware";
 import Login from "./pages/Authentication/Login";
-import Register from "./pages/Authentication/register";
+import Register from "./pages/Authentication/Register";
 /**
  * User
  */
@@ -18,7 +18,7 @@ import { useSelector } from "react-redux";
 import DashboardAdmin from "./pages/Admin/Dashboard/Dashboard";
 import Account from "./pages/Admin/Account/Account";
 import ValidationPinjam from "./pages/Admin/Validation/Vpinjam";
-import Vpengembalian from "./pages/Admin/Validation/vpengembalian";
+import Vpengembalian from "./pages/Admin/Validation/Vpengembalian";
 import Fined from "./pages/Admin/Denda/denda";
 import Jurusan from "./pages/Admin/Jurusan";
 import WhatsappSettings from "./pages/Admin/Whatsapp/Whatsapp";
